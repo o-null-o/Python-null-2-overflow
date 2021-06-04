@@ -1,0 +1,8 @@
+File handling is a way to create and manipulate data in python ..............
+Python has a variety of usage in terms of file handling...........
+
+
+File supported:
+	# encoded text files
+	# binary file
+	# comma separated files(csv)
