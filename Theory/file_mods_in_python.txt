@@ -1,0 +1,29 @@
+In order to perform any action into the file we have open the file with specific mode according to our need
+
+
+Only for reading the file.......
+	•	for reading 'r' flag is used.
+	•	file pointer is placed at the beginning of the file
+
+Appending files....
+	•	for appending files generally 'a' flag is used.
+	•	if the files does not exit , python will create one
+	•	new insertion will not affect the existing flag
+	•	file pointer is placed at the beginning of the file
+
+Writing the files...
+	•	for writting into the file generally 'w' flag is used
+	•	if the files does not exit , python will create one
+	•	new insertion will deleate the previous records of the file
+	
+
+SPECIAL MODS:-	
+	FILE MODS			SPECIFICATIONS
+	•	'rb'				reads in binary mode
+	•	'wb'				writes in binary mode 
+	•
+	•
+	•
+	•
+	•
+	•
