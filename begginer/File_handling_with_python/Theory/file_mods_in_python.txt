@@ -1,0 +1,36 @@
+8888 w 8                             8      
+8www w 8 .d88b    8d8b.d8b. .d8b. .d88 d88b 
+8    8 8 8.dP'    8P Y8P Y8 8' .8 8  8 `Yb. 
+8    8 8 `Y88P    8   8   8 `Y8P' `Y88 Y88P 
+                                            
+                                            
+In order to perform any action into the file we have open the file with specific mode according to our need
+File-modes governs the type of operation which is possible to a particular file
+
+
+Only for reading the file.......
+	•	for reading 'r' flag is used.
+	•	file pointer is placed at the beginning of the file
+
+Appending files....
+	•	for appending files generally 'a' flag is used.
+	•	if the files does not exit , python will create one
+	•	new insertion will not affect the existing flag
+	•	file pointer is placed at the beginning of the file
+
+Writing the files...
+	•	for writting into the file generally 'w' flag is used
+	•	if the files does not exit , python will create one
+	•	new insertion will deleate the previous records of the file
+	
+
+SPECIAL MODS:-	
+	FILE MODS			SPECIFICATIONS
+	•	'rb'				reads in binary mode
+	•	'wb'				writes in binary mode 
+	•	'ab'				opens a file for appending in binary mode
+	•	'r+'				opens a file for reading and writing,placing the pointer at the beginning of the file.
+	•	'w+'				opens a write-only file in binary mode
+	•	'wb+'				opens a file for writing and reading in binary mode.
+	•	'a+'				opens a file for both appending and reading.
+	•	'ab+'				opens a file both and reading in binary mode.

@@ -1,0 +1,23 @@
+
+ ___                           ___          .-.            ___                       
+(   )                         (   )        /    \    .-.  (   )                      
+ | |_       .--.    ___  ___   | |_        | .`. ;  ( __)  | |    .--.       .--.    
+(   __)    /    \  (   )(   ) (   __)      | |(___) (''")  | |   /    \    /  _  \   
+ | |      |  .-. ;  | |  | |   | |         | |_      | |   | |  |  .-. ;  . .' `. ;  
+ | | ___  |  | | |   \ `' /    | | ___    (   __)    | |   | |  |  | | |  | '   | |  
+ | |(   ) |  |/  |   / ,. \    | |(   )    | |       | |   | |  |  |/  |  _\_`.(___) 
+ | | | |  |  ' _.'  ' .  ; .   | | | |     | |       | |   | |  |  ' _.' (   ). '.   
+ | ' | |  |  .'.-.  | |  | |   | ' | |     | |       | |   | |  |  .'.-.  | |  `\ |  
+ ' `-' ;  '  `-' /  | |  | |   ' `-' ;     | |       | |   | |  '  `-' /  ; '._,' '  
+  `.__.    `.__.'  (___)(___)   `.__.     (___)     (___) (___)  `.__.'    '.___.'   
+                                                                                     
+                                                                                     
+                                                                                     
+Text files are those files which store information in the form fof ASCII or UNICODE characters (the one which is default for your programming platform).
+
+In text files,each line of text is terminated,(delmitted) with a special character know as EOL(End of line) characters.
+
+In text files, some internal translations take place when this EOl character is read or written.
+In python,by default, this EOL character is the newline character('\s') or carriage-return, newline combination('\r\s')
+
+
