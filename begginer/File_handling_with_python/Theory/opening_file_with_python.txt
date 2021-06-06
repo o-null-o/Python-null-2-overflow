@@ -1,0 +1,32 @@
+  .oooooo.                                     o8o                               .o88o.  o8o  oooo                     
+ d8P'  `Y8b                                    `"'                               888 `"  `"'  `888                     
+888      888 oo.ooooo.   .ooooo.  ooo. .oo.   oooo  ooo. .oo.    .oooooooo      o888oo  oooo   888   .ooooo.   .oooo.o 
+888      888  888' `88b d88' `88b `888P"Y88b  `888  `888P"Y88b  888' `88b        888    `888   888  d88' `88b d88(  "8 
+888      888  888   888 888ooo888  888   888   888   888   888  888   888        888     888   888  888ooo888 `"Y88b.  
+`88b    d88'  888   888 888    .o  888   888   888   888   888  `88bod8P'        888     888   888  888    .o o.  )88b 
+ `Y8bood8P'   888bod8P' `Y8bod8P' o888o o888o o888o o888o o888o `8oooooo.       o888o   o888o o888o `Y8bod8P' 8""888P' 
+              888                                               d"     YD                                              
+             o888o                                              "Y88888P'                                              
+                                                                                                                       
+In order to manipulate or create a file we have to open a file first ....
+The basic purpose of opening a file is ....
+	•Reading data from files
+	•Writing data to files
+	•Appending data to files
+
+How to open file:-
+	Syntax :=
+		<file_objectname>=open(<filename>)
+		<file_objectname>=open(<filename>,<modes>)
+
+	•Here the open() function creates a file object which serves as a link to a file residing on you computer
+	•The first parameterfior the open() function is a path to the file you'd like to open . If just the file name is given, then Python searches for the file in the current folder.
+	•The second parameter opens the file in specific file mods which has specific works to do......
+
+	example:=
+		file1=open(r'today.txt')
+		file2=open('mywork\\file\\maint.txt','r')
+
+	•The above systex will create a file object named file1 and file2
+	•The 'r' represents the raw string in python which is used as (r'today.txt')
+	•In 'mywork\\file\\maint.txt','r' the double backslashes represent escape character for backslash for the file paths.........
