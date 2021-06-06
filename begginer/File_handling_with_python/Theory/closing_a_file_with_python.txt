@@ -7,11 +7,11 @@
    >===>   >==>    >=>     >=> >=> >=> >==>  >=>      >=>          >==>>>==>         >=>   >=> >==>  >====>   
                                                    >=>                                                        
 
-An open files needs to be closed although python automatically closes it
-But then also it is good practice to close the file
-Because kernel may not write data into the file unitil it is closed
-This means that if a file is abruptly closed then chances are there that file may not be written properly
-So moral of the story is to close the file properly............
+•An open files needs to be closed although python automatically closes it
+•But then also it is good practice to close the file
+•Because kernel may not write data into the file unitil it is closed
+•This means that if a file is abruptly closed then chances are there that file may not be written properly
+•So moral of the story is to close the file properly............
 
 How to close a file:-
 	
