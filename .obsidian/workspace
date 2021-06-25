@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 194
   },
   "right": {
     "id": "a628847a00d59d94",
@@ -90,7 +90,10 @@
   "lastOpenFiles": [
     "begginer/File_handling_with_python/Theory/1.what_is_file_handling.md",
     "begginer/File_handling_with_python/Theory/2.what_is_text_files.md",
+    "[[2.what_is_text_files]].md",
     "begginer/File_handling_with_python/Theory/3.what_is_binary_file.md",
+    "text-files.md",
+    "LICENSE.md",
     "begginer/File_handling_with_python/Theory/4.what_is_csv_file.md"
   ]
 }
