@@ -20,9 +20,7 @@ pointer.close()
 def compare(content1,content2):
     '''This funciton will help you to compare two files, just you had to pass the file handler to the function in reading mode'''
     content1=content1.read().split()
-    # print(content1)
     content2=content2.read().split()
-    # print(content2)
     common_words=list()
     for count in range(len(content1)-1):
         for flag in range(len(content2)-1):

@@ -1,5 +1,4 @@
 #python to accept roll no, name and class of 5 student in a class store it in a file student.
-'''
 def main():
     count=1
     while count<=5:
@@ -12,4 +11,3 @@ def main():
 
 with open('school.txt','a') as pointer :
     main()
-'''

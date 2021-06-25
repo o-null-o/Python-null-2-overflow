@@ -1,13 +1,13 @@
 #Write a Python program to read an entire text file.
-'''
+
 def main(pointer):
     return pointer.read()
 with open('sample.txt','r') as pointer:
     print(main(pointer))
-'''
+
 
 #write a funtion in python to search how many word ending with 's' in a file story.txt
-'''
+
 def main(file):
     temp=file.read().split()
     for count in temp:
@@ -16,14 +16,14 @@ def main(file):
 file=open('story.txt','r')
 main(file)
 file.close()
-'''
 
+# ---------------------------------------START OF THE FILE --------------------------------
 #write a funtion in python to read data from student.txt 
 #content roll name and total marks display the highest scorername
 
 #this file can be coded in many ways mainly three ways 
 #using readline function
-'''
+
 def main(pointer):
     roll,name,marks =list(),list(),list()
     text=pointer.readline().split()
@@ -40,9 +40,9 @@ def calculate(roll,name,marks):
 pointer=open('sample.txt','r')
 calculate(*main(pointer))
 pointer.close()
-'''
+
 #usnig readlines function
-"""
+
 def main(pointer):
     roll,name,marks =list(),list(),list()
     for count in pointer.readlines():
@@ -58,9 +58,9 @@ def calculate(roll,name,marks):
 pointer=open('sample.txt','r')
 calculate(*main(pointer))
 pointer.close()
-"""
+
 #using read funtion
-'''
+
 def main(pointer):
     roll,name,marks =list(),list(),list()
     for count in pointer.read().split('\n'):
@@ -76,4 +76,4 @@ def calculate(roll,name,marks):
 pointer=open('sample.txt','r')
 calculate(*main(pointer))
 pointer.close()
-'''
+# ---------------------------------------END OF THE FILE --------------------------------
